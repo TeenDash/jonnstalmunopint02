@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@300;400;700&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-image: url('imagenes/fondo.jpg'); /* Fondo relacionado con la música */
+    background-attachment: fixed;
+    background-size: cover;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header, nav, div {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+}
+
+header h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 3em;
+    color: #2c3e50;
+}
+
+.eslogan {
+    font-style: italic;
+    color: #16a085;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    display: inline;
+    position: relative;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #3498db;
+    font-size: 1.2em;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li a img {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+}
+
+nav ul li a:hover {
+    background-color: #3498db;
+    color: white;
+}
+
+div#seccion3 .producto {
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #bdc3c7;
+    border-radius: 5px;
+    background: #ecf0f1;
+}
+
+div#seccion3 .producto h3 {
+    color: #e74c3c;
+}
+
+div#seccion4 .factura-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+div#seccion4 .factura-header h3 {
+    font-family: 'Lobster', cursive;
+    font-size: 2em;
+    color: #2c3e50;
+}
+
+div#seccion4 table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+div#seccion4 table, th, td {
+    border: 1px solid #95a5a6;
+    padding: 10px;
+    text-align: center;
+}
+
+div#seccion4 th {
+    background-color: #34495e;
+    color: white;
+}
+
+div#seccion4 tfoot td {
+    font-weight: bold;
+}
+
+.botones {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.botones button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #2ecc71;
+    color: white;
+    cursor: pointer;
+}
+
+.botones button:hover {
+    background-color: #27ae60;
+}
+
+
+.deportista {font-family: "Give You Glory", cursive; font-weight: 400;  font-style: normal; font-size: 15px}
+.hola  {font-size: 40px}
+.direccion {font-size: 30px}
+
